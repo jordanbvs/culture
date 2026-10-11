@@ -35,3 +35,11 @@ Procédure manuelle équivalente : télécharger l'image dans `images/<slug>.jpg
 
 ## Captures
     python3 screenshots/shoot.py   # nécessite le serveur sur 8787 et playwright (pip)
+
+## Application installable (PWA)
+- `manifest.webmanifest` (nom « Culture. », `start_url`/`scope` = `./`, standalone, couleurs papier `#F3EFE6`).
+- `sw.js` : coquille (HTML/CSS/JS/icônes) précachée ; `data.json` et `images/` en réseau d'abord avec repli cache (une nouvelle reco apparaît immédiatement) ; polices Google mises en cache.
+  **Après toute modification de CSS/JS/HTML/icônes, incrémenter `VERSION` dans `sw.js`** (sinon les visiteurs gardent l'ancienne coquille). Ajouter des recos ne nécessite rien.
+- Icônes : `python3 tools/make_icons.py` (Pillow + Instrument Serif TTF, chemin via `CULTURE_FONT`) → `icons/`.
+- Bandeau d'installation : automatique sur Chrome/Android/desktop (`beforeinstallprompt`), indice unique sur Safari iOS. Refus mémorisé dans `localStorage` (`culture:install-dismissed`).
+  Aperçu forcé : `?install-demo` (Chrome) ou `?install-demo=ios`.

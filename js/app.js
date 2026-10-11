@@ -202,5 +202,83 @@
   $('#q').addEventListener('input', (e) => { state.q = e.target.value; render(); });
   $('#sort').addEventListener('change', (e) => { state.sort = e.target.value; render(); });
 
+  /* ---------- Application installable (PWA) ---------- */
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch((e) => console.warn('Service worker non enregistré', e));
+    });
+  }
+
+  const install = (() => {
+    const KEY = 'culture:install-dismissed';
+    const params = new URLSearchParams(location.search);
+    const demo = params.has('install-demo') ? (params.get('install-demo') || 'chrome') : null; // ?install-demo ou ?install-demo=ios
+    const ua = navigator.userAgent;
+    const isIOS = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    const isIOSSafari = isIOS && /safari/i.test(ua) && !/crios|fxios|edgios|opios|gsa\//i.test(ua);
+    const standalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+    const dismissed = () => { try { return !!localStorage.getItem(KEY); } catch { return false; } };
+    const remember = () => { try { localStorage.setItem(KEY, new Date().toISOString()); } catch {} };
+    let deferred = null, el = null;
+
+    const shareIcon = '<svg class="install__share" viewBox="0 0 24 24" aria-label="Partager" role="img"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5"/><path d="M8 10H6.5A1.5 1.5 0 0 0 5 11.5v8A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-8a1.5 1.5 0 0 0-1.5-1.5H16"/></svg>';
+    const closeBtn = '<button class="install__close" type="button" aria-label="Fermer" data-install-close><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>';
+
+    function show(kind) {
+      if (el) return;
+      el = document.createElement('aside');
+      el.className = `install install--${kind}`;
+      el.setAttribute('role', 'dialog');
+      el.setAttribute('aria-label', 'Installer Culture');
+      el.innerHTML = kind === 'ios' ? `
+        <span class="install__mark" aria-hidden="true">C<i>.</i></span>
+        <div class="install__text">
+          <p class="install__title">Culture, sur ton écran d’accueil</p>
+          <p class="install__hint">Touche ${shareIcon} <b>Partager</b>, puis <b>Sur l’écran d’accueil</b>.</p>
+        </div>
+        ${closeBtn}` : `
+        <span class="install__mark" aria-hidden="true">C<i>.</i></span>
+        <div class="install__text">
+          <p class="install__title">Installer Culture sur ton appareil</p>
+          <p class="install__hint">Plein écran · hors ligne</p>
+        </div>
+        <button class="install__cta" type="button" data-install-go>Installer</button>
+        ${closeBtn}`;
+      document.body.appendChild(el);
+      requestAnimationFrame(() => requestAnimationFrame(() => el && el.classList.add('is-in')));
+      el.querySelector('[data-install-close]').onclick = () => { remember(); hide(); };
+      const go = el.querySelector('[data-install-go]');
+      if (go) go.onclick = async () => {
+        if (!deferred) { hide(); return; }
+        deferred.prompt();
+        const { outcome } = await deferred.userChoice.catch(() => ({}));
+        deferred = null;
+        if (outcome === 'dismissed') remember();
+        hide();
+      };
+    }
+    function hide() {
+      if (!el) return;
+      const node = el; el = null;
+      node.classList.remove('is-in');
+      setTimeout(() => node.remove(), 400);
+    }
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault(); // on remplace la mini-barre native par notre bandeau
+      deferred = e;
+      if (!standalone() && !dismissed()) setTimeout(() => show('chrome'), 1200);
+    });
+    window.addEventListener('appinstalled', () => { remember(); deferred = null; hide(); });
+    matchMedia('(display-mode: standalone)').addEventListener?.('change', (e) => e.matches && hide());
+
+    if (demo) setTimeout(() => show(demo === 'ios' ? 'ios' : 'chrome'), 300);
+    else if (isIOSSafari && !standalone() && !dismissed()) {
+      // iOS n'a pas d'invite automatique : indice discret, une seule fois
+      setTimeout(() => { show('ios'); remember(); }, 2500);
+    }
+    return { show, hide };
+  })();
+
   load();
 })();
