@@ -154,7 +154,7 @@
         <p class="d__creator">${typo(i.creator)}</p>
         <p class="d__desc">${typo(i.description)}</p>
         <dl class="d__meta">
-          <div><dt>Conseillé par</dt><dd>${esc(i.recommended_by) || '—'}</dd></div>
+          ${i.recommended_by ? `<div><dt>Conseillé par</dt><dd>${esc(i.recommended_by)}</dd></div>` : ''}
           <div><dt>Ajouté le</dt><dd>${fmtDate(i.date_added)}</dd></div>
           <div><dt>Statut</dt><dd><span class="badge ${statusClass(i.status)}">${STATUS_LABEL[i.status] || esc(i.status)}</span></dd></div>
           ${i.rating ? `<div><dt>Note</dt><dd>${stars(i.rating)}</dd></div>` : ''}

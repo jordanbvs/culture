@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "the-leftovers",
+    "category": "serie",
+    "title": "The Leftovers",
+    "creator": "Damon Lindelof & Tom Perrotta",
+    "year": 2014,
+    "description": "Deux pour cent de l'humanité disparaît sans laisser de trace. Ceux qui restent apprennent à vivre avec le vide, le doute, et ce qui ne s'explique pas.",
+    "image": "images/the-leftovers.jpg",
+    "recommended_by": "Bruno",
+    "date_added": "2026-10-11",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "HBO",
+      "drame",
+      "mystère",
+      "fantastique"
+    ],
+    "link": "https://en.wikipedia.org/wiki/The_Leftovers_(TV_series)"
+  }
+]
