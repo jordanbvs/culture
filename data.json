@@ -18,5 +18,24 @@
       "fantastique"
     ],
     "link": "https://en.wikipedia.org/wiki/The_Leftovers_(TV_series)"
+  },
+  {
+    "id": "succession",
+    "category": "serie",
+    "title": "Succession",
+    "creator": "Jesse Armstrong",
+    "year": 2018,
+    "description": "La famille Roy se déchire pour le contrôle d'un empire médiatique. Une guerre de succession cynique, brillante, et sans pitié.",
+    "image": "images/succession.jpg",
+    "recommended_by": "Bruno",
+    "date_added": "2026-10-11",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "HBO",
+      "drame",
+      "satire"
+    ],
+    "link": "https://en.wikipedia.org/wiki/Succession_(TV_series)"
   }
 ]
