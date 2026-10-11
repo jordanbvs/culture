@@ -356,3 +356,4 @@ main { padding: 26px 0 80px; min-height: 50vh; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+.stats { display: none !important; }
