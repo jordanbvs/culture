@@ -2,7 +2,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import os, sys
 
-FONT = os.environ.get("CULTURE_FONT", "/workspace/fonts/InstrumentSerif-Regular.ttf")
+FONT = os.environ.get("CULTURE_FONT", "/workspace/_partage/fonts/InstrumentSerif-Regular.ttf")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "icons")
 PAPER, INK, ACCENT = (243, 239, 230), (22, 20, 15), (210, 67, 42)
 SS = 4  # supersampling

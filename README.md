@@ -3,7 +3,7 @@
 Page unique, sans build : `index.html` + `css/style.css` + `js/app.js` lisent `data.json` au chargement (en `no-store`, donc toute modification est visible au simple rechargement).
 
 ## Lancer
-    cd /workspace/culture && nohup python3 -m http.server 8787 > /tmp/culture-server.log 2>&1 &
+    cd /workspace/culture/site && nohup python3 -m http.server 8787 > /workspace/_tmp/culture-server.log 2>&1 &
     → http://localhost:8787/   (aperçu de l'état vide : http://localhost:8787/?vide , fiche directe : #<id>)
 
 ## Format d'un élément (`data.json` = tableau)
@@ -13,7 +13,7 @@ Page unique, sans build : `index.html` + `css/style.css` + `js/app.js` lisent `d
 | category | film · serie · livre · musique · podcast · expo · spectacle · jeu · lieu · autre |
 | title, creator, year | texte, texte, entier |
 | description | 1–2 phrases en français |
-| image | chemin relatif `images/<slug>.<ext>` (fichier dans /workspace/culture/images/) ou null |
+| image | chemin relatif `images/<slug>.<ext>` (fichier dans `images/`) ou null |
 | recommended_by | personne ou source |
 | date_added | AAAA-MM-JJ |
 | status | `à découvrir` · `en cours` · `découvert` |
