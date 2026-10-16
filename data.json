@@ -37,5 +37,25 @@
       "satire"
     ],
     "link": "https://en.wikipedia.org/wiki/Succession_(TV_series)"
+  },
+  {
+    "id": "ramzi-b",
+    "category": "autre",
+    "title": "Ramzi B.",
+    "creator": "Créateur de contenu IA",
+    "year": null,
+    "description": "Ex-développeur passé à la création de contenu IA, il partage ses workflows d'images et de vidéos générées (Claude, GPT Image, motion design en un prompt). Des expériences concrètes et souvent bluffantes sur ce que l'IA change aux métiers créatifs.",
+    "image": "images/ramzi-b.jpg",
+    "recommended_by": "",
+    "date_added": "2026-10-16",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "LinkedIn",
+      "IA",
+      "création de contenu",
+      "motion design"
+    ],
+    "link": "https://www.linkedin.com/in/ramzib/"
   }
 ]
