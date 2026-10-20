@@ -57,5 +57,25 @@
       "motion design"
     ],
     "link": "https://www.linkedin.com/in/ramzib/"
+  },
+  {
+    "id": "bis",
+    "category": "film",
+    "title": "Bis",
+    "creator": "Dominique Farrugia",
+    "year": 2015,
+    "description": "Deux amis quadragénaires se réveillent en 1986, au cœur de leur adolescence. Une comédie nostalgique où l'on rêve, l'espace d'un été, de tout refaire.",
+    "image": "images/bis.jpg",
+    "recommended_by": "",
+    "date_added": "2026-10-20",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "comédie",
+      "voyage dans le temps",
+      "années 80",
+      "amitié"
+    ],
+    "link": "https://fr.wikipedia.org/wiki/Bis_(film)"
   }
 ]
