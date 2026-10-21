@@ -77,5 +77,25 @@
       "amitié"
     ],
     "link": "https://fr.wikipedia.org/wiki/Bis_(film)"
+  },
+  {
+    "id": "fallout",
+    "category": "serie",
+    "title": "Fallout",
+    "creator": "Jonathan Nolan & Lisa Joy",
+    "year": 2024,
+    "description": "Deux siècles après l'apocalypse nucléaire, une habitante d'un abri souterrain s'aventure dans les terres désolées de Los Angeles. Une adaptation du jeu vidéo à l'humour noir, rétrofuturiste et étonnamment fidèle.",
+    "image": "images/fallout.jpg",
+    "recommended_by": "",
+    "date_added": "2026-10-22",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "Prime Video",
+      "science-fiction",
+      "post-apocalyptique",
+      "adaptation de jeu vidéo"
+    ],
+    "link": "https://en.wikipedia.org/wiki/Fallout_(American_TV_series)"
   }
 ]
