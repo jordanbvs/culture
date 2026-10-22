@@ -116,5 +116,25 @@
       "singer-songwriter"
     ],
     "link": "https://en.wikipedia.org/wiki/Devendra_Banhart"
+  },
+  {
+    "id": "the-gentlemen",
+    "category": "serie",
+    "title": "The Gentlemen",
+    "creator": "Guy Ritchie",
+    "year": 2024,
+    "description": "Héritier inattendu d'un domaine aristocratique anglais, un jeune duc découvre que ses terres abritent un florissant empire du cannabis. Guy Ritchie prolonge son film de 2019 avec la même verve : gangsters gouailleurs, dialogues ciselés et humour très british.",
+    "image": "images/the-gentlemen.jpg",
+    "recommended_by": "",
+    "date_added": "2026-10-22",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "Netflix",
+      "comédie criminelle",
+      "Theo James",
+      "Kaya Scodelario"
+    ],
+    "link": "https://en.wikipedia.org/wiki/The_Gentlemen_(2024_TV_series)"
   }
 ]
