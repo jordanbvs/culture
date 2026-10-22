@@ -136,5 +136,25 @@
       "Kaya Scodelario"
     ],
     "link": "https://en.wikipedia.org/wiki/The_Gentlemen_(2024_TV_series)"
+  },
+  {
+    "id": "the-giaccomo",
+    "category": "film",
+    "title": "The Giaccomo",
+    "creator": "Baptiste Drapeau",
+    "year": 2026,
+    "description": "Un coach de salle de sport d'Amiens prêt à tout pour atteindre le million d'abonnés, d'un bad buzz à l'autre jusqu'à Dubaï. Un faux documentaire mordant sur l'influence, porté par Xavier Lacaille et des créateurs jouant leur propre rôle.",
+    "image": "images/the-giaccomo.jpg",
+    "recommended_by": "",
+    "date_added": "2026-10-22",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "comédie",
+      "faux documentaire",
+      "influenceurs",
+      "réseaux sociaux"
+    ],
+    "link": "https://fr.wikipedia.org/wiki/The_Giaccomo"
   }
 ]
