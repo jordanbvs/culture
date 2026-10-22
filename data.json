@@ -97,5 +97,24 @@
       "adaptation de jeu vidéo"
     ],
     "link": "https://en.wikipedia.org/wiki/Fallout_(American_TV_series)"
+  },
+  {
+    "id": "devendra-banhart",
+    "category": "musique",
+    "title": "Devendra Banhart",
+    "creator": "Devendra Banhart",
+    "year": 2002,
+    "description": "Figure de proue du freak folk, l'Américano-Vénézuélien mêle folk psychédélique, tropicalisme et douceur bossa dans des chansons à la fois étranges et tendres. Une voix tremblante, un univers d'une liberté rare.",
+    "image": "images/devendra-banhart.jpg",
+    "recommended_by": "David",
+    "date_added": "2026-10-22",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "freak folk",
+      "folk psychédélique",
+      "singer-songwriter"
+    ],
+    "link": "https://en.wikipedia.org/wiki/Devendra_Banhart"
   }
 ]
