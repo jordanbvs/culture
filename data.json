@@ -156,5 +156,24 @@
       "réseaux sociaux"
     ],
     "link": "https://fr.wikipedia.org/wiki/The_Giaccomo"
+  },
+  {
+    "id": "jj-cale",
+    "category": "musique",
+    "title": "J.J. Cale",
+    "creator": "J.J. Cale",
+    "year": 1972,
+    "description": "Père discret du Tulsa Sound, l'auteur d'« After Midnight » et « Cocaine » a inventé un groove paresseux et feutré, guitare murmurée et voix en retrait. Un maître du laid-back que Clapton et Knopfler ont vénéré.",
+    "image": "images/jj-cale.jpg",
+    "recommended_by": "David",
+    "date_added": "2026-10-22",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "Tulsa Sound",
+      "blues rock",
+      "singer-songwriter"
+    ],
+    "link": "https://en.wikipedia.org/wiki/J._J._Cale"
   }
 ]
