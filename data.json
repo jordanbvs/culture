@@ -175,5 +175,63 @@
       "singer-songwriter"
     ],
     "link": "https://en.wikipedia.org/wiki/J._J._Cale"
+  },
+  {
+    "id": "rooibos-cafe-dammann",
+    "category": "autre",
+    "title": "Rooibos Café",
+    "creator": "Dammann Frères",
+    "year": null,
+    "description": "Né d'une tasse de rooibos relevée de quelques grains de café moulus, servie lors d'une récolte en Afrique du Sud : un rooibos gourmand aux arômes de café, de chocolat et de vanille, avec du riz torréfié. Base sans théine, mais l'arôme café apporte une pointe de caféine.",
+    "image": "images/rooibos-cafe-dammann.jpg",
+    "recommended_by": "Sarra",
+    "date_added": "2026-10-25",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "rooibos",
+      "café",
+      "chocolat",
+      "vanille"
+    ],
+    "link": "https://steepster.com/teas/dammann-freres/98266-rooibos-cafe"
+  },
+  {
+    "id": "smokey-tarry-dammann",
+    "category": "autre",
+    "title": "Smokey Tarry",
+    "creator": "Dammann Frères",
+    "year": null,
+    "description": "Thé noir N°497 au goût fumé affirmé et à la liqueur corsée, transcription de la palette aromatique du Tarry Lapsang Souchong. Pour les amateurs de notes de bois fumé.",
+    "image": "images/smokey-tarry-dammann.jpg",
+    "recommended_by": "Sarra",
+    "date_added": "2026-10-25",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "thé noir",
+      "fumé",
+      "Lapsang Souchong"
+    ],
+    "link": "https://www.dammann.fr/fr/the-noir-smokey-tarry.html"
+  },
+  {
+    "id": "genmaicha-dammann",
+    "category": "autre",
+    "title": "Genmaïcha",
+    "creator": "Dammann Frères",
+    "year": null,
+    "description": "Thé vert japonais N°38 mêlant Sencha, riz torréfié et riz soufflé : une liqueur aux notes vertes, iodées et de céréales grillées. Idéal avec un brunch.",
+    "image": "images/genmaicha-dammann.jpg",
+    "recommended_by": "Sarra",
+    "date_added": "2026-10-25",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "thé vert",
+      "Japon",
+      "riz grillé"
+    ],
+    "link": "https://www.dammann.fr/fr/the-du-japon-genmaicha.html"
   }
 ]
