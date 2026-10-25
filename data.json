@@ -178,7 +178,7 @@
   },
   {
     "id": "rooibos-cafe-dammann",
-    "category": "autre",
+    "category": "nourriture",
     "title": "Rooibos Café",
     "creator": "Dammann Frères",
     "year": null,
@@ -198,7 +198,7 @@
   },
   {
     "id": "smokey-tarry-dammann",
-    "category": "autre",
+    "category": "nourriture",
     "title": "Smokey Tarry",
     "creator": "Dammann Frères",
     "year": null,
@@ -217,7 +217,7 @@
   },
   {
     "id": "genmaicha-dammann",
-    "category": "autre",
+    "category": "nourriture",
     "title": "Genmaïcha",
     "creator": "Dammann Frères",
     "year": null,

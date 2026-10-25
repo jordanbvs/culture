@@ -10,7 +10,7 @@ Page unique, sans build : `index.html` + `css/style.css` + `js/app.js` lisent `d
 | champ | valeur |
 |---|---|
 | id | slug unique (= nom de l'image) |
-| category | film · serie · livre · musique · podcast · expo · spectacle · jeu · lieu · autre |
+| category | film · serie · livre · musique · podcast · expo · spectacle · jeu · lieu · nourriture · autre |
 | title, creator, year | texte, texte, entier |
 | description | 1–2 phrases en français |
 | image | chemin relatif `images/<slug>.<ext>` (fichier dans `images/`) ou null |

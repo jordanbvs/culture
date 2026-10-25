@@ -3,7 +3,7 @@
    · data.json et images/ : réseau d'abord, cache en secours → les nouvelles recos apparaissent tout de suite.
    · Polices Google : précachées au mieux à l'installation, puis stale-while-revalidate.
    Incrémenter VERSION à chaque modification de la coquille (CSS/JS/HTML/icônes). */
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL_CACHE = `culture-shell-${VERSION}`;
 const DATA_CACHE = 'culture-data';    // non versionné : garde les dernières données connues
 const FONT_CACHE = 'culture-fonts-v1';
