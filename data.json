@@ -233,5 +233,24 @@
       "riz grillé"
     ],
     "link": "https://www.dammann.fr/fr/the-du-japon-genmaicha.html"
+  },
+  {
+    "id": "the-jaune",
+    "category": "nourriture",
+    "title": "Thé jaune",
+    "creator": "Chine",
+    "year": null,
+    "description": "Famille de thés rare et confidentielle, dont l'oxydation douce à l'étouffée arrondit le végétal du thé vert : une liqueur dorée, suave et sans amertume. À goûter via ses grands crus, Junshan Yinzhen ou Huoshan Huangya.",
+    "image": "images/the-jaune.jpg",
+    "recommended_by": "Sarra",
+    "date_added": "2026-10-26",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "thé jaune",
+      "Chine",
+      "grand cru"
+    ],
+    "link": "https://fr.wikipedia.org/wiki/Th%C3%A9_jaune"
   }
 ]
