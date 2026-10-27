@@ -10,6 +10,7 @@
     spectacle: { label: 'Spectacles', one: 'Spectacle', color: '#8C3B2E' },
     jeu:       { label: 'Jeux',       one: 'Jeu vidéo', color: '#3F4FA8' },
     lieu:      { label: 'Lieux',      one: 'Lieu',      color: '#5E7A2E' },
+    site:      { label: 'Sites',      one: 'Site',      color: '#4A6670' },
     nourriture: { label: 'Nourriture', one: 'Nourriture', color: '#A0522D' },
     autre:     { label: 'Autres',     one: 'Autre',     color: '#6B6259' },
   };

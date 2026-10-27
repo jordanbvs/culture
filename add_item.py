@@ -21,7 +21,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data.json")
 IMG_DIR = os.path.join(ROOT, "images")
 UA = {"User-Agent": "RecosCatalog/1.0 (https://github.com/jbeauvais/recos; personal non-commercial use) python-urllib"}
-CATEGORIES = ["film", "serie", "livre", "musique", "podcast", "expo", "spectacle", "jeu", "lieu", "nourriture", "autre"]
+CATEGORIES = ["film", "serie", "livre", "musique", "podcast", "expo", "spectacle", "jeu", "lieu", "site", "nourriture", "autre"]
 STATUSES = ["à découvrir", "en cours", "découvert"]
 
 

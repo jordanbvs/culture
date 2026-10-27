@@ -1,5 +1,24 @@
 [
   {
+    "id": "frobiaz",
+    "category": "site",
+    "title": "Frobiaz.com",
+    "creator": "Site web",
+    "year": null,
+    "description": "Site de streaming de films en accès libre, au catalogue mis à jour quotidiennement (sorties récentes, tendances, classement par genre). Attention : plateforme non officielle, sans éditeur identifié.",
+    "image": "images/frobiaz.png",
+    "recommended_by": "Bruno",
+    "date_added": "2026-10-27",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "site web",
+      "streaming",
+      "films"
+    ],
+    "link": "https://frobiaz.com/"
+  },
+  {
     "id": "the-leftovers",
     "category": "serie",
     "title": "The Leftovers",
