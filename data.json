@@ -252,5 +252,25 @@
       "grand cru"
     ],
     "link": "https://fr.wikipedia.org/wiki/Th%C3%A9_jaune"
+  },
+  {
+    "id": "kaamelott-deuxieme-volet-partie-1",
+    "category": "film",
+    "title": "Kaamelott : Deuxième Volet, partie 1",
+    "creator": "Alexandre Astier",
+    "year": 2025,
+    "description": "Arthur revenu, la Table ronde se reforme tant bien que mal pour reprendre la quête du Graal. Alexandre Astier poursuit sa saga arthurienne entre épopée, mélancolie et répliques cultes.",
+    "image": "images/kaamelott-deuxieme-volet-partie-1.jpg",
+    "recommended_by": "",
+    "date_added": "2026-10-27",
+    "status": "à découvrir",
+    "rating": null,
+    "tags": [
+      "comédie",
+      "fantasy",
+      "légende arthurienne",
+      "saga"
+    ],
+    "link": "https://fr.wikipedia.org/wiki/Kaamelott_:_Deuxi%C3%A8me_Volet,_partie_1"
   }
 ]
